@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../supabase/client";
-import gecorLogo from "../assets/gecor-logo.png";
+import gecorLogo from "../assets/gecor-logo-treinamento.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -116,6 +116,7 @@ export default function Login() {
             />
             <div>
               <h1 className="gecor-brand__name">GECOR</h1>
+              <h1 className="gecor-brand__name">TREINAMENTO</h1>
               <p className="gecor-brand__subtitle">
                 Gestão Eletrônica de Correição, Operações e Registros
               </p>
