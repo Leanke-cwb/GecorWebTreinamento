@@ -31,7 +31,7 @@ export default function RecuperarSenha() {
       const { error } = await supabase.auth.resetPasswordForEmail(
   emailNormalizado,
   {
-    redirectTo: "https://gecor.onrender.com/redefinir-senha",
+    redirectTo: "https://gecorwebtreinamento.onrender.com/redefinir-senha",
   }
 );
 
